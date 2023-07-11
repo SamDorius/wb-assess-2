@@ -1,0 +1,143 @@
+/*
+
+these are the colors used in the example
+***you can use them if you'd like or you can choose your own***
+
+black - rgb(37, 37, 37)
+blue - rgb(42, 171, 226)
+shadow - rgba(102, 75, 75, .3)
+white - rgb(255, 255, 255) (default value)
+
+the font is called 'nunito' and can be found on google fonts
+***you can use it if you'd like or you can choose your own***
+
+*/
+
+*
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.topBar
+{
+    background-color: rgb(37, 37, 37);
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    display: flex;
+    flex-flow: row;
+    position: fixed;
+    width: 100%;
+}
+
+.right
+{
+    display: flex;
+    color: white;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+h1
+{
+    color: rgb(42, 171, 226);
+    font-size: large;
+    width: 70%;
+}
+
+.profile
+{
+    width: 100px;
+    padding: 10px;
+}
+
+article
+{
+    padding-top: 80px;
+   
+}
+
+section
+{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.middleRight
+{
+    text-align: center;
+    margin-left: 50px;
+    box-shadow: 0px 0px 10px gray;
+    margin-top: 80px;
+    height: 150px;
+}
+
+h2
+{
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+p
+{
+    margin-bottom: 15px;
+}
+
+.list
+{
+    margin-top: 30px;
+    width: 120px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+ol
+{
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 5px;
+    text-align: left;
+}
+
+h3
+{
+    font-size: 13px;
+    padding: 5px;
+}
+
+.placeHolder
+{
+    width: 100px;
+    padding: 10px;
+}
+
+.gallery
+{
+    flex-flow: column;
+    padding-left: 100px;
+    width: 400px;
+}
+
+footer
+{
+    background-color: rgb(42, 171, 226);
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.question 
+{
+    background-color: rgb(42, 171, 226);
+    border: 2px solid black;
+    border-radius: 100%;
+    position: fixed;
+    margin-left: 96%;
+    margin-top: 54%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
